@@ -91,8 +91,8 @@ def generate_dataset_classification(nb_samples, noise=0.0, free_location=False):
     Y = np.zeros(nb_samples)
     print('Creating data:')
     for i in range(nb_samples):
-        if i % 10 == 0:
-            print(i)
+#         if i % 10 == 0:
+#             print(i)
         category = np.random.randint(3)
         if category == 0:
             X[i] = generate_a_rectangle(noise, free_location)
@@ -117,8 +117,8 @@ def generate_dataset_regression(nb_samples, noise=0.0):
     Y = np.zeros([nb_samples, 6])
     print('Creating data:')
     for i in range(nb_samples):
-        if i % 10 == 0:
-            print(i)
+#         if i % 10 == 0:
+#             print(i)
         [X[i], Y[i]] = generate_a_triangle(noise, True)
     X = (X + noise) / (255 + 2 * noise)
     return [X, Y]
@@ -136,7 +136,7 @@ def visualize_prediction(x, y):
     tri = patches.Polygon(xy, closed=True, fill = False, edgecolor = 'r', linewidth = 5, alpha = 0.5)
     ax.add_patch(tri)
 
-    plt.show()
+#     plt.show()
 
 def generate_test_set_regression():
     np.random.seed(42)
