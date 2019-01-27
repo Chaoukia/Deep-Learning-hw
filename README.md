@@ -7,11 +7,11 @@ This repository contains homeworks of the Deep Learning course (MVA - CentraleSu
 - Predict coordinates of randomly generated triangles.
 - Image denoising with autoencoders.
 
-### NLP:
+### NLP :
 - Word embedding.
 - Sentence classification.
 
-### Reinforcement learning:
+### Reinforcement learning :
 - Deep Q learning (under construction).
 
 
