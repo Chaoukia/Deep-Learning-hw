@@ -4,7 +4,7 @@ This repository contains homeworks of the Deep Learning course (MVA - CentraleSu
 
 ### Image classification and regression : 
 - Classifying randomly generated triangles, rectangles and circles.
-- Predict coordinates of randomly generated triangles.
+- Predicting coordinates of randomly generated triangles.
 - Image denoising with autoencoders.
 
 ### NLP :
@@ -12,7 +12,7 @@ This repository contains homeworks of the Deep Learning course (MVA - CentraleSu
 - Sentence classification.
 
 ### Reinforcement learning :
-- Deep Q learning (under construction).
+- Deep Q learning: Optimizing the behaviour of a rat in a grid with poisonous cells and cell with cheese.
 
 
 
