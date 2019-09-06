@@ -12,7 +12,7 @@ This repository contains homeworks of the Deep Learning course (MVA - CentraleSu
 - Sentence classification.
 
 ### Reinforcement learning :
-- Deep Q learning: Optimizing the behaviour of a rat in a grid with poisonous cells and cell with cheese.
+- Deep Q learning: Optimizing the behaviour of a rat in a grid with cells either poisonous or with cheese
 
 
 
